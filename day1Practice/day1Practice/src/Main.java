@@ -13,5 +13,8 @@ public class Main {
         CheckString check1=new CheckString("Mumbai","Mumbai");
         check1.check();
 
+        System.out.println("-----------the Year is a Leap Year or not a Leap Year----------");
+        LeapYear checkYear=new LeapYear();
+        checkYear.check(2022);
     }
 }
